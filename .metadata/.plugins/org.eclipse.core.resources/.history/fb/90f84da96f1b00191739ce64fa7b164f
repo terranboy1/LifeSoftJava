@@ -1,0 +1,16 @@
+package ch13_useful;
+
+public class ObjCast {
+
+	public static void main(String[] args) {
+		int a=10;
+		Object obj = new Object();
+
+		//좌변 부모, 우변 자식 => 가능
+		obj=20;
+		//좌변 자식, 우변 부모 => 에러(형변환)
+		a = (Integer)obj;
+		
+	}
+
+}

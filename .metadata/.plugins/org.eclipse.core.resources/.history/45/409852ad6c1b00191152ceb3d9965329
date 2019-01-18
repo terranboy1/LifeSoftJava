@@ -1,0 +1,62 @@
+package java09;
+
+public class abc {
+
+	public static void main(String[] args) {
+		
+		Car a = new FireEngine();
+		Car b = new Ambulance();
+		Car c = new Police();
+		
+		a.drive();
+		a.siren();
+		b.drive();
+		b.siren();
+		c.drive();
+		c.siren();
+		
+		Car car = new Car();
+		FireEngine fe = new FireEngine();
+		
+		car=fe;
+		fe = (FireEngine)car;  //업캐스팅이 선행되어야 다운캐스팅이 된다.. 멤버의 갯수제한을 다시 되돌려놓는것.
+		System.out.println(fe);
+	}
+}
+
+class Car {
+	int a;
+	
+	void drive() {
+		System.out.println("운전합니다.");
+	}
+	
+	void siren() {
+		System.out.println("일반자동차는 사이렌이 없습니다.");
+	}
+}
+
+class FireEngine extends Car {
+	int b;
+	
+	void siren() {
+		System.out.println("소방차 사이렌");
+	}
+}
+
+class Ambulance extends Car {
+	int c;
+	
+	void siren() {
+		System.out.println("엠뷸런스 사이렌");
+	}
+}
+
+class Police extends Car {
+	int d;
+	
+	void siren() {
+		System.out.println("경찰차 사이렌");
+	}
+}
+

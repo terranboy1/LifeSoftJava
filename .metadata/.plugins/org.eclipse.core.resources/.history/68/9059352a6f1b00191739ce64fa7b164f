@@ -1,0 +1,16 @@
+package ch13_useful;
+
+public class Obj2 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Parent {
+	int x;
+	int y;
+}
+
+class Child extends Parent{
+	int z;
+}

@@ -1,0 +1,11 @@
+package ch13_useful;
+
+public class AutoBox2 {
+
+	public static void main(String[] args) {
+		
+		//¿ÀÅä¹Ú½Ì
+		Integer i2 = 20;
+		
+	}
+}

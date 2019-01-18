@@ -1,0 +1,18 @@
+package ch13_useful;
+
+public class ObjCast {
+
+	public static void main(String[] args) {
+		int a=10;
+		Object obj = new Object();
+
+		//좌변 부모, 우변 자식 => 가능
+		obj=20;
+		//좌변 자식, 우변 부모 => 에러(형변환) (멤버는 자식이 많지만 범위는 부모가 넓음. 계층구조로 본다고 함)
+		a = (Integer)obj;
+		
+		Object[] obj2 = {100, 100.5, true, "hello", 'A'};
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package ch13_useful;
+
+public class Obj2 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package ch13_useful;
+
+public class ObjCast {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

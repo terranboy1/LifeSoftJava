@@ -1,0 +1,16 @@
+package ch13_useful;
+
+public class AutoBox2 {
+
+	public static void main(String[] args) {
+		
+		//오토박싱 - 객체 안에 value변수 포함
+		Integer i1 = new Integer(20);
+		Integer i2 = 20;
+		
+		
+		//오토언박싱
+		
+		
+	}
+}

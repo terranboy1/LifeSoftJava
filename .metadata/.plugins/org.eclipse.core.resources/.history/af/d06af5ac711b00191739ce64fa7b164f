@@ -1,0 +1,10 @@
+package ch13_useful;
+
+public class Clone implements Cloneable { //clone메서드를 사용하려면 Cloneable인터페이스를 구현해야 함
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

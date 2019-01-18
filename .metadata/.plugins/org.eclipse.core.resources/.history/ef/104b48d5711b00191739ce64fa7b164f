@@ -1,0 +1,22 @@
+package ch13_useful;
+
+public class Clone implements Cloneable { //clone메서드를 사용하려면 Cloneable인터페이스를 구현해야 함
+	int num=10;
+	void print() {
+		System.out.println(num);
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	public static void main(String[] args) {
+		Clone t1 = new Clone();
+		Clone t2 = null;
+		try {
+			th2 = (Clone)t1.clone();
+		} catch(CloneNotSupportedExcpetion e) {
+			e.printStackTrace();
+		}
+	}
+
+}
