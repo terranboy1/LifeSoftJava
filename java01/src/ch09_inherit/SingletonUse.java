@@ -3,8 +3,8 @@ package ch09_inherit;
 public class SingletonUse {
 
 	public static void main(String[] args) {
-		//private생성자라 다음줄 에러 발생
 		//Singleton a = new Singleton();
+		//private생성자라 다음줄 에러 발생
 		//생성자 대신 getInstance() method호출해 객체 생성해야 함.
 		Singleton a = Singleton.getInsance();
 		Singleton b = Singleton.getInsance();

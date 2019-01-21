@@ -17,5 +17,7 @@ public class InnerClass {
 		InnerClass e = new InnerClass();
 		//e.getX(); //사용불가. InnerClass에 직접적으로 있는 멤버가 아님. 인스턴스를 한번 더 만들어야됨.
 		InnerClass.Inner in = e.new Inner();
+		
+		InnerClass a = new InnerClass();
 	}	
 }

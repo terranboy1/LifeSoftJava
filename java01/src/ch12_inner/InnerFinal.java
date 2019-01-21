@@ -15,7 +15,7 @@ public class InnerFinal {
 			}
 		}
 		
-		// x = 30; final 안하면 이부분에서 짖역변수 값을 바꿔버릴 수 있기 때문에 컴파일 에러로 해논것이였대. 와하 그렇구나.
+		// x = 30; //final 안하면 이부분에서 짖역변수 값을 바꿔버릴 수 있기 때문에 컴파일 에러로 해논것이였대. 와하 그렇구나.
 	}
 	
 	public static void main(String[] args) {

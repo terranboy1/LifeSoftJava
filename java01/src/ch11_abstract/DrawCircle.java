@@ -22,7 +22,7 @@ public class DrawCircle extends Point implements Draw {
 
 		// 타원그리기
 		// 선 색깔만 그림
-//		g.fillOval(a, b, width, height);
+//		g.fillOval(a, b, width, height); 잘못적었내
 		//내용물 안에도 채움
 		g.setColor(Color.green);
 		g.fillOval(a, b, width, height);

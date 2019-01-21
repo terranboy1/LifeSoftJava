@@ -11,7 +11,7 @@ public class StringArray2 {
 		
 		
 		
-		for(int i=1; i<10; i++) {
+		for(int i=1; i<5; i++) {
 			int n = (int)(Math.random()*str.length);	
 			String tmp = str[0];
 			str[0] = str[n];

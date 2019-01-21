@@ -20,7 +20,7 @@ public class StaticInner { // 외부클래스
 		System.out.println(in.getX());
 		
 		
-		StaticInner out = new StaticInner(); //이건 int getX() 메서드 호출하는건데, 
-		out.getX();                          //스태틱이 인스턴스멤버 사용하려면 객체 생성해야된다는거 기억하지? 생성시점때문에~
+		StaticInner out = new StaticInner();
+		out.getX();                          
 	}
 }
